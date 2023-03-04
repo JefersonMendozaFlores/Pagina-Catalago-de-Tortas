@@ -1,0 +1,159 @@
+.principal{
+    margin: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.header{
+    margin: auto;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+}
+
+.header img{
+    width: 21px;
+    margin-right: 5px;
+}
+
+.header figure figcaption{
+    float: right;
+} 
+
+.header a figcaption{
+    color: black;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 20px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: darkred;
+}
+
+h2{
+    color: darkred;
+}
+
+label{
+    color: brown;
+}
+
+.nav{
+    width: auto;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: brown;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: darkgrey;
+    transition: all .3s;
+}
+
+.submenu{
+    padding: 5px 10px;
+    position: absolute;
+    background: blanchedalmond;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    transition: all 2s;
+    opacity: 1;
+}
+
+.linknav{
+    margin: 50px auto;
+    text-align: center;
+}
+
+.linknav h2{
+    font-size: 26px;
+    color: darkred;
+}
+
+.linknav a{
+    font-size: 17px;
+    text-decoration: none;
+    color: gray;
+}
+
+.linknav a:hover{
+    color: darkred;
+    transition: all 1.5s;
+}
+
+.linknav p{
+    font-size: 17px;
+    color: darkred;
+}
+
+.footer{
+    width: auto;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+}
+
+.footer1{
+    width: 50%;
+    margin: 20px 0px 0px 0px;
+    padding: 30px;
+    text-align: center;
+    float: left;
+}
+
+.footer2{
+    width: 40%;
+    margin: 10px 0px 0px 0px;
+    padding: 30px;
+    text-align: center;
+    float: right;
+}
+
+.footer2 a img{
+    width: 40px;
+    height: 40px;
+}
+
+.footer3{
+    margin-left: 15px;
+    padding: 20px;
+}

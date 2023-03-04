@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuéntranos - Fina Willy</title>
+    <link rel="shortcut icon" href="../imagenes/logo.png">
+    <link rel="stylesheet" href="../estilos/estilos1.css">
+</head>
+<style>
+    .main{
+        width: 100%;
+        margin-bottom:  45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .main1 figure{
+        text-align: center;
+        margin-bottom: 40px;
+    } 
+
+    .main1 figure img{
+        width: 55px;
+        height: 47px;
+    }
+
+    .main1 a{
+        color: black;
+    }
+
+    .main2{
+        margin-left: 50px;
+    }
+
+    .main2 input{
+        width: 350px;
+        height: 30px;
+    }
+
+    .main2 textarea{
+        width: 350px;
+    }
+    
+    .main2 button{
+        width: 120px;
+        height: 30px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="principal">
+        <div class="header">
+            <figure>
+                <a href="https://linktr.ee/Pasteleriawilly" target="_blank">
+                    <img src="../imagenes/telefono.png" alt="">
+                    <figcaption>987-984-933</figcaption>  
+                </a>  
+            </figure>
+            <h1><a href="pasteleria.html">Pastelería Fina Willy</a></h1>
+            <figure>
+                <img src="../imagenes/carrito.png" alt="">
+                <figcaption id="item">0 item(s)</figcaption>
+            </figure>
+        </div>
+        <div class="nav">
+           <ul class="menu">
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="productos.html">PRODUCTOS</a>
+                    <ul class="submenu">
+                        <li><a href="tortas.html">TORTAS</a></li>
+                        <li><a href="bocaditos.html">BOCADITOS DE MESA</a></li>
+                        <li><a href="tortaspersonalizadas.html">TORTAS PERSONALIZADAS</a></li>
+                    </ul>
+                </li>
+                <li><a href="ventas.html">VENTAS</a></li>
+                <li><a href="atencion.html">ATENCIÓN AL CLIENTE</a></li>
+                <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="encuentranos.html">ENCUÉNTRANOS</a></li>
+           </ul>
+        </div>
+        <div class="linknav">
+            <h2>ENCUÉNTRANOS</h2>
+            <p><a href="pasteleria.html">Inicio </a>/ Encuéntranos</p>
+        </div>
+        <div class="main">
+            <div class="main1">
+                <figure>
+                    <img src="../imagenes/ubicacion.png" alt="">
+                    <figcaption>Av. Unión Jicamarca Mz. H Lt. 18 Sector Oeste - <br>Cercado de Lima 15461, Huarochirí, Peru</figcaption>
+                </figure>
+                <figure>
+                    <img src="../imagenes/reloj.png" alt="">
+                    <figcaption>Todos los días a partir de las <br> 8:30a.m hasta las 21:30p.m</figcaption>
+                </figure>
+                <figure>
+                    <a href="https://linktr.ee/Pasteleriawilly" target="_blank">
+                        <img src="../imagenes/telefono.png" alt="">
+                        <figcaption>+51 987-984-933</figcaption>  
+                    </a>  
+                </figure>
+                <figure>
+                    <img src="../imagenes/correo.png" alt="">
+                    <figcaption>pastfinawilly@gmail.com</figcaption>
+                </figure>
+            </div>
+            <div class="main2">
+                <form action="" onsubmit="validar(this)" method="post">
+                    <h2>Envianos un mensaje</h2>
+                    <label for="">Nombres y apellidos</label><br>
+                    <input type="text" name="txtnombre"><br><br>
+                    <label for="">Correo electrónico</label><br>
+                    <input type="text" name="txtcorreo"><br><br>
+                    <label for="">Mensaje</label><br>
+                    <textarea name="txtmensaje" id="" cols="30" rows="10"></textarea><br><br>
+                    <button type="submit" name="Enviar">ENVIAR</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer1">
+                <h3><em>Bienvenidos a nuestra pagina Pastelería Willy!!</em></h3>
+                <h3><em>Aquí te ofrecemos una gran variedad de tortas, bocaditos</em></h3>
+            </div>
+            <div class="footer2">
+                <h3><em>Síguenos en nuestras redes sociales</em></h3>
+                <a href="https://es-la.facebook.com/PasteleriaWilly" target="_blank"><img src="../imagenes/facebook.png" alt="" ></a>
+                <a href="https://www.instagram.com/pasteleria_willy/?hl=es" target="_blank"><img src="../imagenes/instagram.png" alt=""></a>
+                 <a href="https://www.tiktok.com/@pasteleria_willy?" target="_blank"><img src="../imagenes/tiktok.png" alt=""></a>
+            </div>
+            <div class="footer3">
+                <a href="pasteleria.html"><img src="../imagenes/logo.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="../javascript/formulario.js"></script>

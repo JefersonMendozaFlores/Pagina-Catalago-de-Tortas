@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Compra - Fina Willy</title>
+    <link rel="shortcut icon" href="../imagenes/logo.png">
+    <link rel="stylesheet" href="../estilos/estilos1.css">
+</head>
+<style>
+    .formulario{
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .formu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .formu input{
+        width: 200px;
+        height: 25px;
+    }
+
+    .formu1{
+        margin-left: 60px;
+    }
+
+    .formu2 input{
+        width: 468px;
+        height: 25px;
+    }
+    
+    button{
+        width: 150px;
+        height: 30px;
+    }
+</style>
+<body>
+    <div class="principal">
+        <div class="header">
+            <figure>
+                <a href="https://linktr.ee/Pasteleriawilly" target="_blank">
+                    <img src="../imagenes/telefono.png" alt="">
+                    <figcaption>987-984-933</figcaption>  
+                </a>  
+            </figure>
+            <h1><a href="pasteleria.html">Pastelería Fina Willy</a></h1>
+            <figure>
+                <img src="../imagenes/carrito.png" alt="">
+                <figcaption id="item">0 item(s)</figcaption>
+            </figure>
+        </div>
+        <div class="nav">
+           <ul class="menu">
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="productos.html">PRODUCTOS</a>
+                    <ul class="submenu">
+                        <li><a href="tortas.html">TORTAS</a></li>
+                        <li><a href="bocaditos.html">BOCADITOS DE MESA</a></li>
+                        <li><a href="tortaspersonalizadas.html">TORTAS PERSONALIZADAS</a></li>
+                    </ul>
+                </li>
+                <li><a href="ventas.html">VENTAS</a></li>
+                <li><a href="atencion.html">ATENCIÓN AL CLIENTE</a></li>
+                <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="encuentranos.html">ENCUÉNTRANOS</a></li>
+           </ul>
+        </div>
+        <div class="main">
+            <div class="linknav">
+                <h2>FINALIZAR COMPRA</h2>
+                <p><a href="pasteleria.html">Inicio </a>/ Finalizar Compra</p>
+            </div>
+            <div class="formulario">
+                <form action=""  onsubmit="validarCompra(this)" method="post">
+                    <h2>Facturación y envío</h2>
+                    <div class="formu">
+                        <div>
+                            <label for="">Nombre *</label><br>
+                            <input type="text" name="txtnombre"><br><br>
+                        </div>
+                        <div class="formu1">
+                            <label for="">Apellido *</label><br>
+                            <input type="text" name="txtapellido"><br><br>
+                        </div>
+                    </div>
+                    <div class="formu2">
+                        <label for="">Dirección de la calle *</label><br>
+                        <input type="text" name="txtdireccion"><br><br>
+                        <label for="">Teléfono *</label><br>
+                        <input type="text" name="txttelefono"><br><br>
+                        <label for="">Correo electrónico *</label><br>
+                        <input type="text" name="txtcorreo"><br><br>
+                        <h2>Información del cumpleañero</h2>
+                        <label for="">Nombre del cumpleañero (opcional)</label><br>
+                        <input type="text" name="txtnombrecumpl" placeholder="Solo ingrese un nombre"><br><br>
+                        <label for="">Edad del cumpleañero (opcional)</label><br>
+                        <input type="text" name="txtedad"><br><br><br><br>
+                        <button type="submit" name="Realizar">Realizar pedido</button><br>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer1">
+                <h3><em>Bienvenidos a nuestra pagina Pastelería Willy!!</em></h3>
+                <h3><em>Aquí te ofrecemos una gran variedad de tortas, bocaditos</em></h3>
+            </div>
+            <div class="footer2">
+                <h3><em>Síguenos en nuestras redes sociales</em></h3>
+                <a href="https://es-la.facebook.com/PasteleriaWilly" target="_blank"><img src="../imagenes/facebook.png" alt="" ></a>
+                <a href="https://www.instagram.com/pasteleria_willy/?hl=es" target="_blank"><img src="../imagenes/instagram.png" alt=""></a>
+                 <a href="https://www.tiktok.com/@pasteleria_willy?" target="_blank"><img src="../imagenes/tiktok.png" alt=""></a>
+            </div>
+            <div class="footer3">
+                <a href="pasteleria.html"><img src="../imagenes/logo.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="../javascript/formulario.js"></script>
